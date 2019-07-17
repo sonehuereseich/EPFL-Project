@@ -1,0 +1,271 @@
+body {
+  /* reset */
+  margin: 0;
+  padding: 0;
+
+  /* Base */
+  color: #000000;
+  background-color: #99ccff;
+}
+
+/* Banner */
+.banner {
+  text-align: center;
+  height: 400px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(images/island.JPG);
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.banner h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 8vw;
+  color: white;
+  line-height: 150px;
+  text-shadow: 2px 2px 2px #aaa;
+  margin-bottom: 30px;
+}
+
+.main-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-menu li {
+  margin: 5px;
+  flex: 1 0 auto;
+}
+
+.main-menu a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  color: #456990;
+  display: block;
+  background-color: #f5fef4;
+  border: 1px solid #456990;
+  border-radius: 4px;
+  padding: 5px 20px;
+}
+
+.main-menu a.current{
+  background-color: #456990;
+  color: #f5fef4;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  background-color: #114b5f;
+  color: #f5fef4;
+}
+
+.main-menu {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* Main Content */
+
+main {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.pic {
+  display: flex;
+  align-content: center;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+}
+.box1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ff4d4d;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: auto;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #f2f2f2;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: auto;
+}
+
+.text {
+  text-align: justify;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  max-width: 950px;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.table {
+  text-align: justify;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  max-width: 950px;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.travel {
+  font-family: 'Indie Flower', cursive;
+  text-align: justify;
+  flex-wrap: wrap;
+  font-weight: bold;
+  background-color: #ff4d4d;
+  font-size: 20px;
+  border: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 5px;
+  height: auto;
+}
+
+.places {
+  font-family: 'Indie Flower', cursive;
+  text-align: justify;
+  flex-wrap: wrap;
+  font-weight: bold;
+  background-color: #f2f2f2;
+  font-size: 30px;
+  padding: 0px;
+  padding-bottom: 50px;
+  border: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 50px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0px;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.gallery ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery li {
+  flex: 1 0 150px;
+  height: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Manta {
+  background-image: url(images/manta.JPG);
+  background-position: 100% 50%
+}
+
+.Cuttlefish {
+  background-image: url(images/cuttlefish.JPG);
+  background-position: 0% 50%
+}
+
+.Mantadiver {
+  background-image: url(images/mantadiver.JPG);
+  background-position: 50% 50%
+}
+
+.Turtle {
+  background-image: url(images/turtle.JPG);
+  background-position: 100% 50%
+}
+
+.Starfish {
+  background-image: url(images/starfish.JPG);
+  background-position: 0% 50%
+}
+
+.Clown {
+  background-image: url(images/clown.JPG);
+  background-position: 50% 50%
+}
+
+.Bunaken {
+  background-image: url(images/bunaken.JPG);
+  background-position: 100% 50%
+}
+
+.Maki {
+  background-image: url(images/maki.JPG);
+  background-position: 0% 50%
+}
+
+.Manado {
+  background-image: url(images/manado.JPG);
+  background-position: 50% 50%
+}
+
+.Komodo {
+  background-image: url(images/komodo.JPG);
+  background-position: 100% 50%
+}
+
+.Kelimutu {
+  background-image: url(images/kelimutu.jpg);
+  background-position: 0% 50%
+}
+
+.Spider {
+  background-image: url(images/spiderrice.JPG);
+  background-position: 50% 50%
+}
